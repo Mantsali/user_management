@@ -1,0 +1,10 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.user-list .card{
+  border: none;
+    cursor: pointer;
+}

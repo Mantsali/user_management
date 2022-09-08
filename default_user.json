@@ -1,0 +1,12 @@
+{
+    "users" : [
+        {
+            "name" : "Administrator",
+            "username" : "admin",
+            "password": "admin",
+            "email" : "admin@mail.com",
+            "profile_url": ""
+
+        }
+    ]
+}

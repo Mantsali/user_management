@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management | View</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css//style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row py-4">
+            <div class="col text-center">
+              <h1 >User Management</h1>
+            </div>
+          
+            <div class="col-2">
+            <a href="/" class="btn btn-secondary ">home</a>
+        </div>
+
+        <div class="row py-4 d-flex justify-content-center">
+            <form id="view-form" class="col-lg-6">
+                <div class="mb-3 text-center">
+                    <img src="" alt="" class="img-fluid" id="profile">
+                </div>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" name="name" value="" required>
+                </div>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" name="username" value="" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" value="" required>
+                </div>
+                <div class="mb-3">
+                    <label for="profile_url" class="form-label">Profile image URL</label>
+                    <input type="text" class="form-control" id="profile_url" name="profile_url" value="" >
+                </div>
+            </div>
+            <div class="mb-3">
+                <input type="submit" class="btn btn-success btn-lg save" value="Save">
+                <a href="#" class="btn btn-danger btn-lg delete">delete</a>
+            
+            </div>
+    
+            </form>
+            
+      
+        </div>
+    </div>
+
+
+    
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/viewUser.js"></script>
+</body>
+</html>

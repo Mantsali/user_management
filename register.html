@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management | Refister</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css" integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css//style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row py-4">
+            <div class="col">
+              <h1>User Management</h1>
+            </div>
+          
+            <div class="col-2">
+            <a href="/" class="btn btn-secondary ">home</a>
+          </div>
+        <div class="row py-4">
+            <div class="col-lg-4 col-sm-6 mx-auto mb-3">
+                <h2 class="text-decoration-underline">Register New User</h2>
+                <div class="error">
+                    
+                </div>
+                <form  id="new-user-form" onsubmit="return NewUser(event)">
+                    <div class="mb-3 form-floating">
+                       
+                        <input type="text" placeholder="Full Name" class="form-control" id="name" name="name" required>
+                        <label for="name" class="form-label">Full Name</label>
+                      </div>
+                    <div class="mb-3 form-floating">
+                        
+                        <input type="text" placeholder="Username" class="form-control" id="username" name="username" required>
+                        <label for="username" class="form-label">Username</label>
+                      </div>
+                      <div class="mb-3 form-floating">
+                        
+                        <input type="email" placeholder="Email" class="form-control" id="email" name="email" required>
+                        <label for="email" class="form-label">Email</label>
+                      </div>
+                      <div class="mb-3 form-floating">
+                        
+                        <input type="password" placeholder="Password" class="form-control" id="password" name="password" required>
+                        <label for="password" class="form-label">Password</label>
+                      </div>
+                      <div class="mb-3 form-floating">
+                        
+                        <input type="url" placeholder="Avatar URL" class="form-control" id="profile_url" name="profile_url" required>
+                        <label for="profile_url" class="form-label">Avatar URL</label>
+                      </div>
+                      <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+              
+              
+                </form>
+            </div>
+                </div>
+    </div>
+    
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/addUser.js"></script>
+</body>
+</html>

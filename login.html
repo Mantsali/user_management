@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management | Login</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css//style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row text-center py-4">
+        <h1>Users Management</h1>
+    </div>
+
+    <div class="row ">
+        <div class="col-lg-4 col-sm-6 mx-auto">
+            <h2 class="text-decoration-underline">Sign in</h2>
+            <div class="error">
+            </div>
+
+            <form  id="login_form" onsubmit="return LoginUser(event)">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/login.js"></script>
+</body>
+</html>
